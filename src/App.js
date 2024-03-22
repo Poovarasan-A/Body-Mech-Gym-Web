@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import Box from "@mui/material/Box";
+import { Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./Pages/Home";
+import Footer from "./components/Footer";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
 
-function App() {
+const App = () => {
+  const [theme, setTheme] = useState(false);
+
+  const darkTheme = createTheme({
+    palette: {
+      mode: "dark",
+    },
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme ? darkTheme : ""}>
+      <Box bgcolor={"background.default"} color={"text.primary"}>
+        <Navbar setTheme={setTheme} />
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+        <Footer />
+      </Box>
+    </ThemeProvider>
   );
-}
+};
 
 export default App;
+
+// #cc5500
+// #7f2b0a
