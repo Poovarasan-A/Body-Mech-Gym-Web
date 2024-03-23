@@ -16,21 +16,29 @@ const Pricing = () => {
       <Typography variant="h4" fontWeight="700" mt="90px" align="center">
         Subscriptions
       </Typography>
-      <Stack direction="row" mt="60px" mb="40px" justifyContent="space-around">
+      <Stack
+        direction={{ lg: "row", xs: "column" }}
+        mt="60px"
+        mb="50px"
+        justifyContent="space-around"
+        alignItems="center"
+      >
         <Card
           variant="outlined"
           sx={{
+            width: "250px",
             p: "15px",
             pt: "30px",
             border: "3px solid red",
             borderRadius: "10px",
+            mb: { lg: "0px", xs: "40px" },
           }}
         >
           <Chip
             variant="plain"
             color="error"
             label="Basic"
-            sx={{ fontSize: "16px", mb: "10px" }}
+            sx={{ fontSize: "16px", mb: "10px", ml: "5px" }}
           />
           <Typography
             variant="h4"
@@ -58,7 +66,7 @@ const Pricing = () => {
           </List>
           <Divider inset="none" />
           <CardActions sx={{ mt: "20px" }}>
-            <Typography fontWeight="600" fontSize="18px">
+            <Typography fontWeight="600" fontSize="18px" mr="10px">
               Monthly Plan
             </Typography>
             <Button
@@ -66,24 +74,26 @@ const Pricing = () => {
               color="danger"
               sx={{ border: "2px solid red", color: "red" }}
             >
-              Select Plan
+              Select
             </Button>
           </CardActions>
         </Card>
         <Card
           variant="solid"
           sx={{
+            width: "250px",
             p: "15px",
             pt: "30px",
             border: "3px solid red",
             borderRadius: "10px",
+            mb: { lg: "0px", xs: "40px" },
           }}
         >
           <Chip
             variant="plain"
             label="Gold"
             color="error"
-            sx={{ fontSize: "16px", mb: "10px" }}
+            sx={{ fontSize: "16px", mb: "10px", ml: "5px" }}
           />
           <Typography
             variant="h4"
@@ -111,7 +121,7 @@ const Pricing = () => {
           </List>
           <Divider inset="none" />
           <CardActions sx={{ mt: "20px" }}>
-            <Typography fontWeight="600" fontSize="18px">
+            <Typography fontWeight="600" fontSize="18px" mr="5px">
               Quarterly Plan
             </Typography>
             <Button
@@ -119,13 +129,14 @@ const Pricing = () => {
               color="danger"
               sx={{ border: "2px solid red", color: "red" }}
             >
-              Select Plan
+              Select
             </Button>
           </CardActions>
         </Card>
         <Card
           variant="solid"
           sx={{
+            width: "250px",
             p: "15px",
             pt: "30px",
             border: "3px solid red",
@@ -136,7 +147,7 @@ const Pricing = () => {
             variant="plain"
             label="Premium"
             color="error"
-            sx={{ fontSize: "16px", mb: "10px" }}
+            sx={{ fontSize: "16px", mb: "10px", ml: "5px" }}
           />
           <Typography
             variant="h4"
@@ -155,7 +166,7 @@ const Pricing = () => {
             </ListItem>
             <ListItem>
               <Check sx={{ mr: "10px" }} />
-              Pay Yearly Get +1 Year
+              Get +1 Year Free
             </ListItem>
             <ListItem>
               <Check sx={{ mr: "10px" }} />
@@ -164,7 +175,7 @@ const Pricing = () => {
           </List>
           <Divider inset="none" />
           <CardActions sx={{ mt: "20px" }}>
-            <Typography fontWeight="600" fontSize="18px">
+            <Typography fontWeight="600" fontSize="18px" mr="10px">
               Yearly Plan
             </Typography>
             <br />
@@ -173,12 +184,12 @@ const Pricing = () => {
               color="danger"
               sx={{ border: "2px solid red", color: "red" }}
             >
-              Select Plan
+              Select
             </Button>
           </CardActions>
         </Card>
       </Stack>
-      <Typography fontStyle="italic" align="center" mb="60px">
+      <Typography fontStyle="italic" fontSize="18px" align="center" mb="60px">
         *please ensure that no subscriptions have refund policies*
       </Typography>
     </>

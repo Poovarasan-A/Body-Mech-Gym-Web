@@ -14,24 +14,29 @@ const Trainer = () => {
         <Typography variant="h4" fontWeight="700" mt="50px" align="center">
           OUR <span style={{ color: "red" }}>TRAINERS</span>
         </Typography>
-        <Typography>
+        <Typography sx={{ textWrap: "wrap" }} align="center">
           Get the latest training tips and performance information from the Body
           Mechanics Gym team.
         </Typography>
       </Box>
-      <Stack direction="row" justifyContent="space-around" mt="60px">
-        <Box>
+      <Stack
+        direction={{ lg: "row", xs: "column" }}
+        justifyContent="space-around"
+        alignItems="center"
+        mt="60px"
+      >
+        <Box mb="60px">
           <img src={Trainer1} alt="Trainer-1" style={{ width: "250px" }} />
-          <Typography align="center" mt="20px" variant="h6" fontWeight="600">
+          <Typography align="center" mt="10px" variant="h6" fontWeight="600">
             Chris Heria
           </Typography>
           <Typography align="center" color="#676765" fontWeight="600">
             CALISTHENIC TRAINER
           </Typography>
         </Box>
-        <Box>
+        <Box mb={{ lg: "0px", xs: "60px" }}>
           <img src={Trainer2} alt="Trainer-2" style={{ width: "250px" }} />
-          <Typography align="center" mt="20px" variant="h6" fontWeight="600">
+          <Typography align="center" mt="10px" variant="h6" fontWeight="600">
             Eva
           </Typography>
           <Typography align="center" color="#676765" fontWeight="600">
@@ -40,7 +45,7 @@ const Trainer = () => {
         </Box>
         <Box>
           <img src={Trainer3} alt="Trainer-3" style={{ width: "250px" }} />
-          <Typography align="center" mt="20px" variant="h6" fontWeight="600">
+          <Typography align="center" mt="10px" variant="h6" fontWeight="600">
             David Laid
           </Typography>
           <Typography align="center" fontWeight="600" color="#676765">

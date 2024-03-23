@@ -1,47 +1,59 @@
 import React from "react";
-import { Box, Stack, Typography, Button } from "@mui/material/";
+import {
+  Stack,
+  Typography,
+  Button,
+  Card,
+  CardMedia,
+  CardContent,
+} from "@mui/material/";
 import HeroImage from "../assets/main.png";
 
 const HeroBanner = () => {
   return (
     <>
-      <Stack
-        sx={{ mt: { lg: "50px", xs: "60px" } }}
-        direction="row"
-        style={{ backgroundColor: "red" }}
-        p={{ lg: "40px 30px 0px 10px", xs: "10px" }}
-      >
-        <Box mt={{ lg: "80px", xs: "10px" }} ml={{ lg: "100px", xs: "10px" }}>
-          <Typography
-            fontWeight="800"
-            color="white"
-            fontSize={{ lg: "40px", xs: "20px" }}
-            mb="10px"
-          >
-            WALK LIKE A MAN <br />
-            WORKOUT LIKE AN ANIMAL
-          </Typography>
-          <Typography
-            fontSize={{ lg: "18px", xs: "14px" }}
-            lineHeight={{ lg: "30px", xs: "20px" }}
-            color="#f1f1f1"
-            mb="20px"
-          >
-            Welcome to Body Mechanics,
-            <br />
-            Check out the most effective way to tranform your body
-          </Typography>
-          <Button
-            variant="solid"
-            color="danger"
-            sx={{ bgcolor: "#fff", color: "#000" }}
-          >
-            Join Us
-          </Button>
-        </Box>
-        <Stack ml={{ lg: "200px", xs: "0px" }} alignItems="flex-end">
-          <img src={HeroImage} alt="hero" style={{ width: "310px" }} />
-        </Stack>
+      <Stack sx={{ mt: { lg: "50px", xs: "30px" } }} direction="row">
+        <Card
+          sx={{
+            width: "100%",
+            display: { lg: "flex", xs: "block" },
+            justifyContent: "space-around",
+            p: { lg: "40px 0px 0px 0px", xs: "0px" },
+            bgcolor: "red",
+          }}
+        >
+          <CardContent sx={{ mt: { lg: "30px", xs: "0px" } }}>
+            <Typography
+              fontWeight="800"
+              fontSize={{ lg: "40px", xs: "26px" }}
+              mb="10px"
+              color="#fff"
+            >
+              WALK LIKE A MAN <br />
+              WORKOUT LIKE AN ANIMAL
+            </Typography>
+            <Typography
+              fontSize={{ lg: "18px", xs: "15px" }}
+              lineHeight={{ lg: "30px", xs: "25px" }}
+              mb="20px"
+              sx={{ textWrap: "wrap" }}
+              color="#fff"
+            >
+              Welcome to Body Mechanics,
+              <br />
+              Check out the most effective way to tranform your body
+            </Typography>
+            <Button variant="contained" color="inherit">
+              Join Us
+            </Button>
+          </CardContent>
+          <CardMedia
+            component="img"
+            image={HeroImage}
+            alt="Hero Image"
+            sx={{ width: { lg: "310px", xs: "250px" }, ml: { xs: "80px" } }}
+          />
+        </Card>
       </Stack>
       <Typography
         fontWeight="900"

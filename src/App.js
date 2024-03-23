@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 const App = () => {
-  const [theme, setTheme] = useState(false);
+  const [theme, setTheme] = useState(true);
 
   const darkTheme = createTheme({
     palette: {
@@ -17,9 +17,9 @@ const App = () => {
   });
 
   return (
-    <ThemeProvider theme={theme ? darkTheme : ""}>
+    <ThemeProvider theme={theme && darkTheme}>
       <Box bgcolor={"background.default"} color={"text.primary"}>
-        <Navbar setTheme={setTheme} />
+        <Navbar setTheme={setTheme} theme={theme} />
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Typography, Stack } from "@mui/material";
+import { Typography, Stack } from "@mui/material";
 
 // img import
 
@@ -17,103 +17,146 @@ const Programs = () => {
   return (
     <Stack>
       <Typography
-        sx={{ fontSize: { xs: "18px", lg: "30px" } }}
+        sx={{ fontSize: { xs: "22px", lg: "30px" } }}
         fontWeight="700"
         mt="50px"
-        mb="30px"
+        mb={{ lg: "60px", xs: "30px" }}
       >
         Free Workout <span style={{ color: "red" }}>Programs</span>
       </Typography>
       <Stack
         direction="row"
-        justifyContent="space-between"
-        mt="30px"
-        color="#fff"
+        justifyContent={{ lg: "space-between", xs: "space-around" }}
         textTransform="uppercase"
         mb="20px"
         sx={{
           display: "flex",
           flexWrap: "wrap",
           flexGrow: "1",
-          gap: 2,
+          gap: { lg: 2, xs: 2 },
           p: "0",
           m: "0",
         }}
       >
-        <Card sx={{ bgcolor: "red", color: "#fff", minWidth: "200px" }}>
+        <Card variant="soft">
           <CardMedia
             component="img"
             image={FatLossImg}
             alt="Cover Image"
-            sx={{ width: "200px" }}
-          ></CardMedia>
+            sx={{
+              width: { lg: "200px", xs: "150px" },
+            }}
+          />
           <CardContent>
-            <Typography align="center" fontWeight="700">
+            <Typography
+              level="body-lg"
+              align="center"
+              fontWeight="800"
+              color="#fff"
+              mt={{ lg: -6, xs: -6 }}
+              letterSpacing="1px"
+            >
               Fat Loss
             </Typography>
           </CardContent>
         </Card>
-        <Card sx={{ bgcolor: "red", color: "#fff", minWidth: "200px" }}>
+        <Card variant="soft">
           <CardMedia
             component="img"
-            sx={{ width: "200px" }}
+            sx={{ width: { lg: "200px", xs: "150px" } }}
             image={WeightGainImg}
             alt="Cover Image"
           ></CardMedia>
           <CardContent>
-            <Typography align="center" fontWeight="700">
+            <Typography
+              level="body-lg"
+              align="center"
+              fontWeight="800"
+              color="#fff"
+              mt={{ lg: -6, xs: -6 }}
+              letterSpacing="1px"
+            >
               Weight Gain
             </Typography>
           </CardContent>
         </Card>
-        <Card sx={{ bgcolor: "red", color: "#fff", minWidth: "200px" }}>
+        <Card variant="soft">
           <CardMedia
             component="img"
-            sx={{ width: "200px" }}
+            sx={{ width: { lg: "200px", xs: "150px" } }}
             image={WeightLiftingImg}
             alt="Cover Image"
           ></CardMedia>
           <CardContent>
-            <Typography align="center" fontWeight="700">
+            <Typography
+              level="body-lg"
+              align="center"
+              fontSize="14px"
+              fontWeight="800"
+              color="#fff"
+              mt={{ lg: -6, xs: -6 }}
+              letterSpacing="1px"
+            >
               Weight Lifting
             </Typography>
           </CardContent>
         </Card>
-        <Card sx={{ bgcolor: "red", color: "#fff", minWidth: "200px" }}>
+        <Card variant="soft">
           <CardMedia
             component="img"
-            sx={{ width: "200px" }}
+            sx={{ width: { lg: "200px", xs: "150px" } }}
             image={CrossFitImg}
             alt="Cover Image"
           ></CardMedia>
           <CardContent>
-            <Typography align="center" fontWeight="700">
+            <Typography
+              level="body-lg"
+              align="center"
+              fontWeight="800"
+              color="#fff"
+              mt={{ lg: -6, xs: -6 }}
+              letterSpacing="1px"
+            >
               Cross Fit
             </Typography>
           </CardContent>
         </Card>
-        <Card sx={{ bgcolor: "red", color: "#fff", minWidth: "200px" }}>
+        <Card variant="soft">
           <CardMedia
             component="img"
-            sx={{ width: "200px" }}
+            sx={{ width: { lg: "200px", xs: "150px" } }}
             image={CalisImg}
             alt="Cover Image"
           ></CardMedia>
           <CardContent>
-            <Typography align="center" fontWeight="700">
+            <Typography
+              level="body-lg"
+              align="center"
+              fontWeight="800"
+              color="#fff"
+              mt={{ lg: -6, xs: -6 }}
+              letterSpacing="1px"
+            >
               Calisthenics
             </Typography>
           </CardContent>
         </Card>
-        <Card sx={{ bgcolor: "red", color: "#fff", minWidth: "200px" }}>
+        <Card variant="soft">
           <CardMedia
             component="img"
-            sx={{ width: "200px" }}
+            sx={{ width: { lg: "200px", xs: "150px" } }}
             image={YogaImg}
             alt="Cover Image"
           ></CardMedia>
           <CardContent>
-            <Typography align="center" fontWeight="700">
+            <Typography
+              level="body-lg"
+              align="center"
+              fontWeight="800"
+              color="#fff"
+              mt={{ lg: -6, xs: -6 }}
+              letterSpacing="1px"
+            >
               Yoga
             </Typography>
           </CardContent>

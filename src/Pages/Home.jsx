@@ -1,4 +1,3 @@
-import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import HeroBanner from "../components/HeroBanner";
 import Programs from "../components/Programs";
@@ -8,7 +7,7 @@ import Pricing from "../components/Pricing";
 
 const Home = () => {
   return (
-    <Container maxWidth="xl">
+    <Container maxWidth={{ lg: "xl", xs: "" }}>
       <HeroBanner />
       <Programs />
       <About />
