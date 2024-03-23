@@ -1,11 +1,16 @@
 import React, { useState } from "react";
 import "./App.css";
+import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
-import { Route, Routes } from "react-router-dom";
+import { Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Home from "./Pages/Home";
+import Home from "./components/Home";
 import Footer from "./components/Footer";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import Programs from "./components/Programs";
+import About from "./components/About";
+import Trainer from "./components/Trainer";
+import Pricing from "./components/Pricing";
 
 const App = () => {
   const [theme, setTheme] = useState(true);
@@ -18,11 +23,17 @@ const App = () => {
 
   return (
     <ThemeProvider theme={theme && darkTheme}>
-      <Box bgcolor={"background.default"} color={"text.primary"}>
+      <Box sx={{ bgcolor: "background.default", color: "text.primary" }}>
         <Navbar setTheme={setTheme} theme={theme} />
-        <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes>
+        <Container maxWidth="xl">
+          <Routes>
+            <Route index element={<Home />} />
+          </Routes>
+          <Programs />
+          <About />
+          <Trainer />
+          <Pricing />
+        </Container>
         <Footer />
       </Box>
     </ThemeProvider>

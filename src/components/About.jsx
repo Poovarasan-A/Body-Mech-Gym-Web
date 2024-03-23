@@ -2,7 +2,7 @@ import React from "react";
 import { Box, Stack, Typography } from "@mui/material";
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 import PosingImg from "../assets/posing.png";
-import { Card, CardMedia, CardContent } from "@mui/material";
+import CardContent from "@mui/material/CardContent";
 import { List, ListItem } from "@mui/material";
 import Container from "@mui/material/Container";
 

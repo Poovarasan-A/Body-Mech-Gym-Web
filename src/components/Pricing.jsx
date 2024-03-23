@@ -26,7 +26,7 @@ const Pricing = () => {
         <Card
           variant="outlined"
           sx={{
-            width: "250px",
+            width: "280px",
             p: "15px",
             pt: "30px",
             border: "3px solid red",
@@ -81,7 +81,7 @@ const Pricing = () => {
         <Card
           variant="solid"
           sx={{
-            width: "250px",
+            width: "280px",
             p: "15px",
             pt: "30px",
             border: "3px solid red",
@@ -121,7 +121,7 @@ const Pricing = () => {
           </List>
           <Divider inset="none" />
           <CardActions sx={{ mt: "20px" }}>
-            <Typography fontWeight="600" fontSize="18px" mr="5px">
+            <Typography fontWeight="600" fontSize="17px" mr="5px">
               Quarterly Plan
             </Typography>
             <Button
@@ -136,7 +136,7 @@ const Pricing = () => {
         <Card
           variant="solid"
           sx={{
-            width: "250px",
+            width: "280px",
             p: "15px",
             pt: "30px",
             border: "3px solid red",
