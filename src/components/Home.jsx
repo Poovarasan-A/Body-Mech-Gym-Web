@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import {
   Stack,
   Typography,
@@ -12,7 +13,7 @@ import HeroImage from "../assets/main.png";
 const HeroBanner = () => {
   return (
     <>
-      <Stack sx={{ mt: { lg: "50px", xs: "30px" } }} direction="row">
+      <Stack sx={{ mt: { lg: "50px", xs: "30px" } }} direction="row" id="home">
         <Card
           sx={{
             width: "100%",
@@ -44,7 +45,9 @@ const HeroBanner = () => {
               Check out the most effective way to tranform your body
             </Typography>
             <Button variant="contained" color="inherit">
-              Join Us
+              <Link to="pricing" smooth={true}>
+                Join Us
+              </Link>
             </Button>
           </CardContent>
           <CardMedia

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import { Box, Stack, Typography, Divider } from "@mui/material";
 import { List, ListItem } from "@mui/material";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -47,10 +48,22 @@ const Footer = () => {
             <Typography variant="h5" fontWeight="600" ml="10px" mb="10px">
               About
             </Typography>
-            <List>
-              <ListItem>Why Us?</ListItem>
-              <ListItem>Programs Offered</ListItem>
-              <ListItem>Blog</ListItem>
+            <List sx={{ cursor: "pointer" }}>
+              <ListItem>
+                <Link to="about" smooth={true} offset={-100}>
+                  Why Us?
+                </Link>
+              </ListItem>
+              <ListItem>
+                <Link to="programs" smooth={true} offset={-100}>
+                  Programs Offered
+                </Link>
+              </ListItem>
+              <ListItem>
+                <Link to="trainer" smooth={true} offset={-20}>
+                  Blog
+                </Link>
+              </ListItem>
             </List>
           </Box>
           <Box>
@@ -60,15 +73,30 @@ const Footer = () => {
             <List>
               <ListItem>
                 <InstagramIcon sx={{ mr: "10px" }} />
-                Instagram
+                <a
+                  href="https://www.instagram.com/im_darkk_"
+                  style={{ textDecoration: "none", color: "#fff" }}
+                >
+                  Instagram
+                </a>
               </ListItem>
               <ListItem>
                 <XIcon sx={{ mr: "10px" }} />
-                Twitter
+                <a
+                  href="https://www.linkedin.com/in/poovarasan-arumugam-3b798523b/"
+                  style={{ textDecoration: "none", color: "#fff" }}
+                >
+                  Twitter
+                </a>
               </ListItem>
               <ListItem>
                 <FacebookIcon sx={{ mr: "10px" }} />
-                Facebook
+                <a
+                  href="https://www.instagram.com/im_darkk_"
+                  style={{ textDecoration: "none", color: "#fff" }}
+                >
+                  Facebook
+                </a>
               </ListItem>
             </List>
           </Box>

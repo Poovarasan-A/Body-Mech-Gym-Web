@@ -13,7 +13,13 @@ import { Check, Clear } from "@mui/icons-material";
 const Pricing = () => {
   return (
     <>
-      <Typography variant="h4" fontWeight="700" mt="90px" align="center">
+      <Typography
+        variant="h4"
+        fontWeight="700"
+        mt="90px"
+        align="center"
+        id="pricing"
+      >
         Subscriptions
       </Typography>
       <Stack

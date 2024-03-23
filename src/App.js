@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./App.css";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
-import { Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
@@ -26,9 +25,7 @@ const App = () => {
       <Box sx={{ bgcolor: "background.default", color: "text.primary" }}>
         <Navbar setTheme={setTheme} theme={theme} />
         <Container maxWidth="xl">
-          <Routes>
-            <Route index element={<Home />} />
-          </Routes>
+          <Home />
           <Programs />
           <About />
           <Trainer />

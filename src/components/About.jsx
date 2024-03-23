@@ -8,7 +8,7 @@ import Container from "@mui/material/Container";
 
 const About = () => {
   return (
-    <Container>
+    <Container id="about">
       <Stack
         direction={{ lg: "row", xs: "column" }}
         justifyContent="center"

@@ -9,7 +9,7 @@ import Trainer3 from "../assets/DavidLaid.jpeg";
 
 const Trainer = () => {
   return (
-    <Stack>
+    <Stack id="trainer">
       <Box alignSelf="center" mb="20px">
         <Typography variant="h4" fontWeight="700" mt="50px" align="center">
           OUR <span style={{ color: "red" }}>TRAINERS</span>
@@ -25,7 +25,7 @@ const Trainer = () => {
         alignItems="center"
         mt="60px"
       >
-        <Box mb="60px">
+        <Box mb={{ lg: "0px", xs: "60px" }}>
           <img src={Trainer1} alt="Trainer-1" style={{ width: "250px" }} />
           <Typography align="center" mt="10px" variant="h6" fontWeight="600">
             Chris Heria

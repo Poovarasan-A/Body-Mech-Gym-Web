@@ -15,7 +15,7 @@ import CardContent from "@mui/material/CardContent";
 
 const Programs = () => {
   return (
-    <Stack>
+    <Stack id="programs">
       <Typography
         sx={{ fontSize: { xs: "22px", lg: "30px" } }}
         fontWeight="700"
