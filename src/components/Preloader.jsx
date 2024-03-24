@@ -13,16 +13,17 @@ const Preloader = () => {
       bgcolor="#121212"
     >
       <ClimbingBoxLoader color="red" />
-      {/* <Typography
+      <Typography
         variant="p"
         fontSize="20px"
         fontWeight="500"
+        fontStyle="italic"
         color="error"
         mt="40px"
         align="center"
       >
-        
-      </Typography> */}
+        " Don't Sit, Get Fit "
+      </Typography>
     </Stack>
   );
 };
