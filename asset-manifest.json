@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Body-Mech-Gym-Web/static/css/main.c7ec3132.css",
+    "main.js": "/Body-Mech-Gym-Web/static/js/main.00035df9.js",
+    "static/media/Trainer01.jpg": "/Body-Mech-Gym-Web/static/media/Trainer01.bf182007403e273747ac.jpg",
+    "static/media/main.png": "/Body-Mech-Gym-Web/static/media/main.b3aae5db91f9f4445ad7.png",
+    "static/media/posing.png": "/Body-Mech-Gym-Web/static/media/posing.782316967093947ba51e.png",
+    "static/media/crossfit.jpeg": "/Body-Mech-Gym-Web/static/media/crossfit.afddd043715abbac1acd.jpeg",
+    "static/media/Calisthenics.jpeg": "/Body-Mech-Gym-Web/static/media/Calisthenics.28e6f9d6382abeca1066.jpeg",
+    "static/media/DavidLaid.jpeg": "/Body-Mech-Gym-Web/static/media/DavidLaid.4657b652f0b917ba18fd.jpeg",
+    "static/media/yoga.jpeg": "/Body-Mech-Gym-Web/static/media/yoga.ceb7296ddb1eb7d508bf.jpeg",
+    "static/media/ChrisHeria.jpeg": "/Body-Mech-Gym-Web/static/media/ChrisHeria.043dd94ff648c74b275e.jpeg",
+    "static/media/Bulikng.jpeg": "/Body-Mech-Gym-Web/static/media/Bulikng.6754243d949b70f85f8b.jpeg",
+    "static/media/fatloss.jpeg": "/Body-Mech-Gym-Web/static/media/fatloss.f3738bf03258d96b883f.jpeg",
+    "static/media/weightlifting.jpeg": "/Body-Mech-Gym-Web/static/media/weightlifting.46fff7a6f93870fd9fba.jpeg",
+    "static/media/Gym Logo.png": "/Body-Mech-Gym-Web/static/media/Gym Logo.73989a5c07e064273452.png",
+    "static/media/Gym Logo light.png": "/Body-Mech-Gym-Web/static/media/Gym Logo light.910d8cd504423d513d82.png",
+    "index.html": "/Body-Mech-Gym-Web/index.html",
+    "main.c7ec3132.css.map": "/Body-Mech-Gym-Web/static/css/main.c7ec3132.css.map",
+    "main.00035df9.js.map": "/Body-Mech-Gym-Web/static/js/main.00035df9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7ec3132.css",
+    "static/js/main.00035df9.js"
+  ]
+}
