@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Body-Mech-Gym-Web/static/css/main.c7ec3132.css",
-    "main.js": "/Body-Mech-Gym-Web/static/js/main.00035df9.js",
+    "main.js": "/Body-Mech-Gym-Web/static/js/main.ffba45b7.js",
     "static/media/Trainer01.jpg": "/Body-Mech-Gym-Web/static/media/Trainer01.bf182007403e273747ac.jpg",
     "static/media/main.png": "/Body-Mech-Gym-Web/static/media/main.b3aae5db91f9f4445ad7.png",
     "static/media/posing.png": "/Body-Mech-Gym-Web/static/media/posing.782316967093947ba51e.png",
@@ -17,10 +17,10 @@
     "static/media/Gym Logo light.png": "/Body-Mech-Gym-Web/static/media/Gym Logo light.910d8cd504423d513d82.png",
     "index.html": "/Body-Mech-Gym-Web/index.html",
     "main.c7ec3132.css.map": "/Body-Mech-Gym-Web/static/css/main.c7ec3132.css.map",
-    "main.00035df9.js.map": "/Body-Mech-Gym-Web/static/js/main.00035df9.js.map"
+    "main.ffba45b7.js.map": "/Body-Mech-Gym-Web/static/js/main.ffba45b7.js.map"
   },
   "entrypoints": [
     "static/css/main.c7ec3132.css",
-    "static/js/main.00035df9.js"
+    "static/js/main.ffba45b7.js"
   ]
 }
