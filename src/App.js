@@ -12,6 +12,7 @@ import Trainer from "./components/Trainer";
 import Pricing from "./components/Pricing";
 
 import Preloader from "./components/Preloader";
+import Contact from "./components/Contact";
 
 const App = () => {
   const [theme, setTheme] = useState(true);
@@ -42,6 +43,7 @@ const App = () => {
             <About />
             <Trainer />
             <Pricing />
+            <Contact />
           </Container>
           <Footer />
         </Box>

@@ -17,11 +17,11 @@ const Footer = () => {
         direction={{ lg: "row", xs: "column" }}
         justifyContent="space-around"
         alignItems="center"
-        mt="100px"
-        pb="60px"
+        mt="50px"
+        pb="40px"
         bgcolor="#333"
         color="#fff"
-        pt="60px"
+        pt="40px"
       >
         <Box
           sx={{

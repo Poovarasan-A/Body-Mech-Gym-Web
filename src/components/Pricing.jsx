@@ -195,7 +195,7 @@ const Pricing = () => {
           </CardActions>
         </Card>
       </Stack>
-      <Typography fontStyle="italic" fontSize="18px" align="center" mb="60px">
+      <Typography fontStyle="italic" fontSize="16px" align="center" mb="60px">
         *please ensure that no subscriptions have refund policies*
       </Typography>
     </>

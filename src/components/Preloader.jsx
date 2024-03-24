@@ -15,12 +15,14 @@ const Preloader = () => {
       <ClimbingBoxLoader color="red" />
       <Typography
         variant="p"
-        fontSize="20px"
+        fontSize="18px"
+        letterSpacing="1px"
         fontWeight="500"
         fontStyle="italic"
-        color="error"
+        color="#c2c2c2"
         mt="40px"
         align="center"
+        sx={{ wordSpacing: "2px" }}
       >
         " Don't Sit, Get Fit "
       </Typography>
