@@ -4,16 +4,17 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import Input from "@mui/material/Input";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
-  const [submit, setSubmit] = useState("");
   const [value, setValue] = useState("");
 
   const handleSubmit = (e) => {
     if (value.trim() === "") {
-      alert("Please provide your email and try again");
+      toast.warn("Please provide your Email & try again");
     } else {
-      setSubmit(`" Your response was successfully submitted "`);
+      toast.success(" Your response was successfully submitted ");
       setValue("");
     }
   };
@@ -32,9 +33,6 @@ const Contact = () => {
         >
           Have Questions In Mind? <br /> Let Us Help You
         </Typography>
-        <Box fontStyle="italic" color="red" sx={{ mt: "30px" }}>
-          {submit}
-        </Box>
         <Box
           sx={{
             display: "flex",
@@ -64,6 +62,7 @@ const Contact = () => {
           </Button>
         </Box>
       </Stack>
+      <ToastContainer position="top-center" theme="colored" />
     </>
   );
 };
