@@ -35,7 +35,7 @@ const Pricing = () => {
             width: "280px",
             p: "15px",
             pt: "30px",
-            border: "3px solid red",
+            border: "3px solid #ff2400",
             borderRadius: "10px",
             mb: { lg: "0px", xs: "40px" },
           }}
@@ -78,7 +78,7 @@ const Pricing = () => {
             <Button
               variant="solid"
               color="danger"
-              sx={{ border: "2px solid red", color: "red" }}
+              sx={{ border: "2px solid #ff2400", color: "#ff2400" }}
             >
               Select
             </Button>
@@ -90,7 +90,7 @@ const Pricing = () => {
             width: "280px",
             p: "15px",
             pt: "30px",
-            border: "3px solid red",
+            border: "3px solid #ff2400",
             borderRadius: "10px",
             mb: { lg: "0px", xs: "40px" },
           }}
@@ -133,7 +133,7 @@ const Pricing = () => {
             <Button
               variant="solid"
               color="danger"
-              sx={{ border: "2px solid red", color: "red" }}
+              sx={{ border: "2px solid #ff2400", color: "#ff2400" }}
             >
               Select
             </Button>
@@ -145,7 +145,7 @@ const Pricing = () => {
             width: "280px",
             p: "15px",
             pt: "30px",
-            border: "3px solid red",
+            border: "3px solid #ff2400",
             borderRadius: "10px",
           }}
         >
@@ -188,7 +188,7 @@ const Pricing = () => {
             <Button
               variant="solid"
               color="danger"
-              sx={{ border: "2px solid red", color: "red" }}
+              sx={{ border: "2px solid #ff2400", color: "#ff2400" }}
             >
               Select
             </Button>

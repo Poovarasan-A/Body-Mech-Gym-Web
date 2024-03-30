@@ -21,7 +21,7 @@ const About = () => {
             <Typography fontSize={{ lg: "35px", xs: "30px" }} fontWeight="600">
               Why should you take <br />
               proper guidance from <br />
-              experienced <span style={{ color: "red" }}>Trainers</span>
+              experienced <span style={{ color: "#ff2400" }}>Trainers</span>
             </Typography>
             <List m="15px">
               <ListItem>
@@ -41,7 +41,7 @@ const About = () => {
                   fontWeight="500"
                   lineHeight="40px"
                 >
-                  Reducing the risk of Injury
+                  reducing the risk of Injury
                 </Typography>
               </ListItem>
               <ListItem>
@@ -82,7 +82,7 @@ const About = () => {
           ml={{ lg: "360px", xs: "80px" }}
           mt={{ lg: "0px", xs: "470px" }}
           sx={{
-            backgroundColor: "red",
+            backgroundColor: "#ff2400",
             width: "270px",
             height: "420px",
             borderRadius: "20px",
@@ -96,7 +96,7 @@ const About = () => {
           position="relative"
           sx={{
             borderRadius: "20px",
-            border: "5px solid red",
+            border: "5px solid #ff2400",
           }}
         >
           <img src={PosingImg} alt="About" style={{ width: "230px" }} />

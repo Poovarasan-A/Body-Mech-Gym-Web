@@ -12,7 +12,7 @@ const Trainer = () => {
     <Stack id="trainer">
       <Box alignSelf="center" mb="20px">
         <Typography variant="h4" fontWeight="700" mt="50px" align="center">
-          OUR <span style={{ color: "red" }}>TRAINERS</span>
+          OUR <span style={{ color: "#ff2400" }}>TRAINERS</span>
         </Typography>
         <Typography sx={{ textWrap: "wrap" }} align="center">
           Get the latest training tips and performance information from the Body

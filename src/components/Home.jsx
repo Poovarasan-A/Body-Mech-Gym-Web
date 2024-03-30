@@ -20,7 +20,7 @@ const HeroBanner = () => {
             display: { lg: "flex", xs: "block" },
             justifyContent: "space-around",
             p: { lg: "40px 0px 0px 0px", xs: "0px" },
-            bgcolor: "red",
+            bgcolor: "#ff2400",
           }}
         >
           <CardContent sx={{ mt: { lg: "30px", xs: "0px" } }}>

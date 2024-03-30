@@ -22,7 +22,7 @@ const Programs = () => {
         mt="50px"
         mb={{ lg: "60px", xs: "30px" }}
       >
-        Free Workout <span style={{ color: "red" }}>Programs</span>
+        Free Workout <span style={{ color: "#ff2400" }}>Programs</span>
       </Typography>
       <Stack
         direction="row"
