@@ -25,9 +25,9 @@ const App = () => {
   });
 
   useEffect(() => {
-    setTimeout(() => {
+    window.addEventListener("load", () => {
       setLoading(false);
-    }, 3000);
+    });
   }, []);
 
   return (
