@@ -99,7 +99,12 @@ const About = () => {
             border: "5px solid #ff2400",
           }}
         >
-          <img src={PosingImg} alt="About" style={{ width: "230px" }} />
+          <img
+            src={PosingImg}
+            loading="lazy"
+            alt="About"
+            style={{ width: "230px" }}
+          />
         </Box>
       </Stack>
     </Container>

@@ -42,6 +42,7 @@ const Programs = () => {
           <CardMedia
             component="img"
             image={FatLossImg}
+            loading="lazy"
             alt="Cover Image"
             sx={{
               width: { lg: "200px", xs: "150px" },
@@ -65,6 +66,7 @@ const Programs = () => {
             component="img"
             sx={{ width: { lg: "200px", xs: "150px" } }}
             image={WeightGainImg}
+            loading="lazy"
             alt="Cover Image"
           ></CardMedia>
           <CardContent>
@@ -85,6 +87,7 @@ const Programs = () => {
             component="img"
             sx={{ width: { lg: "200px", xs: "150px" } }}
             image={WeightLiftingImg}
+            loading="lazy"
             alt="Cover Image"
           ></CardMedia>
           <CardContent>
@@ -106,6 +109,7 @@ const Programs = () => {
             component="img"
             sx={{ width: { lg: "200px", xs: "150px" } }}
             image={CrossFitImg}
+            loading="lazy"
             alt="Cover Image"
           ></CardMedia>
           <CardContent>
@@ -126,6 +130,7 @@ const Programs = () => {
             component="img"
             sx={{ width: { lg: "200px", xs: "150px" } }}
             image={CalisImg}
+            loading="lazy"
             alt="Cover Image"
           ></CardMedia>
           <CardContent>
@@ -146,6 +151,7 @@ const Programs = () => {
             component="img"
             sx={{ width: { lg: "200px", xs: "150px" } }}
             image={YogaImg}
+            loading="lazy"
             alt="Cover Image"
           ></CardMedia>
           <CardContent>

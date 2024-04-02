@@ -53,6 +53,7 @@ const HeroBanner = () => {
           <CardMedia
             component="img"
             image={HeroImage}
+            loading="lazy"
             alt="Hero Image"
             sx={{ width: { lg: "310px", xs: "250px" }, ml: { xs: "80px" } }}
           />
